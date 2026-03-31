@@ -1,2 +1,12 @@
-# nmap-network-scan-lab
-I used Nmap/Zenmap to scan my home network to identify connected devices, analyze different IP ranges, and look at open ports to better understand how networks can be explored and secured.
+# Nmap Network Scanning Project
+
+## Introduction
+This project demonstrates the use of Nmap and Zenmap for network discovery and vulnerability analysis within a local network. The goal was to identify active hosts, analyze open ports, and gather system and service information using different scan techniques.
+
+---
+
+## Scan 1: Network Discovery Scan
+
+![Network Discovery](screenshots/network-discovery-scan.png)
+
+**Command Used:**
