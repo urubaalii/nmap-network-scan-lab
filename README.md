@@ -19,7 +19,7 @@ This scan was used to identify all active devices on the local network without p
 
 ## Scan 2: Single Host Detailed Scan (iRobot Device)
 
-![Single Host Scan](screenshots/single-host-scan-irobot.png)
+![Single Host Scan](single-host-scan-irobot.png)
 
 **Command Used:**
 nmap -T4 -A -v 192.168.1.57
@@ -31,7 +31,7 @@ This scan targeted a specific host on the network and used aggressive scanning o
 
 ## Scan 3: Range Scan (Multiple Hosts)
 
-![Range Scan](screenshots/range-scan.png)
+![Range Scan](range-scan.png)
 
 **Command Used:**
 nmap -T4 -A -v 192.168.1.1-50
@@ -43,7 +43,7 @@ This scan was performed on a range of IP addresses to analyze multiple devices a
 
 ## Scan 4: Detailed Scan with Open Ports (Local Machine)
 
-![Open Ports Scan](screenshots/detailed-scan-open-ports.png)
+![Open Ports Scan](detailed-scan-open-ports.png)
 
 **Command Used:**
 nmap -T4 -A -v 192.168.1.50
