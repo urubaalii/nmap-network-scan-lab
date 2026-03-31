@@ -7,7 +7,7 @@ This project demonstrates the use of Nmap and Zenmap for network discovery and v
 
 ## Scan 1: Network Discovery Scan
 
-![Network Discovery](network-discovery-scan.png)
+![Network Discovery](network-discovery-scan.JPG)
 
 **Command Used:**
 nmap -sn 192.168.1.0/24
@@ -19,7 +19,7 @@ This scan was used to identify all active devices on the local network without p
 
 ## Scan 2: Single Host Detailed Scan (iRobot Device)
 
-![Single Host Scan](single-host-scan-irobot.png)
+![Single Host Scan](single-host-scan-irobot.JPG)
 
 **Command Used:**
 nmap -T4 -A -v 192.168.1.57
@@ -31,7 +31,7 @@ This scan targeted a specific host on the network and used aggressive scanning o
 
 ## Scan 3: Range Scan (Multiple Hosts)
 
-![Range Scan](range-scan.png)
+![Range Scan](range-scan.JPG)
 
 **Command Used:**
 nmap -T4 -A -v 192.168.1.1-50
@@ -43,7 +43,7 @@ This scan was performed on a range of IP addresses to analyze multiple devices a
 
 ## Scan 4: Detailed Scan with Open Ports (Local Machine)
 
-![Open Ports Scan](detailed-scan-open-ports.png)
+![Open Ports Scan](detailed-scan-open-ports.JPG)
 
 **Command Used:**
 nmap -T4 -A -v 192.168.1.50
