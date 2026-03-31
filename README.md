@@ -7,7 +7,7 @@ This project demonstrates the use of Nmap and Zenmap for network discovery and v
 
 ## Scan 1: Network Discovery Scan
 
-![Network Discovery](network-discovery-scan.JPG)
+![Network Discovery](network-discover-scan.JPG)
 
 **Command Used:**
 nmap -sn 192.168.1.0/24
